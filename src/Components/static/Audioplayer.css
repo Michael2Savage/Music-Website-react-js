@@ -1,0 +1,43 @@
+.sticky_player {
+    position: sticky;
+    bottom: -8px;
+}
+
+
+.iframe {
+    height: 110px;
+    transition: height ease 0.3s;
+    
+}
+
+.iframe_expanded {
+    height: 400px;
+    transition: height ease 0.3s;
+    
+}
+
+.togglearrowbutton{
+    cursor: pointer;
+    border: unset;
+    width: 120px;
+    height: 32px;
+    border-radius: 5px;
+    position: absolute;
+    transition: .3s ease-in-out;
+    
+}
+.togglearrowbutton:hover {
+    transform: scale(1.25);
+    background-color: rgb(255, 180, 94);
+    transition: all ease-in-out 0.2s;
+}
+
+.arrow_up {
+    transition: .2s ease-in-out;
+
+}
+
+.arrow_down {
+    transform: rotate(180deg);
+    transition: .3s ease-in-out;
+}

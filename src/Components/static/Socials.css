@@ -1,0 +1,21 @@
+.sm_link {
+    transform: scale(1.0);
+    transition: all ease-in-out 0.2s;
+}
+
+.sm_link:hover {
+    transform: scale(1.4);
+    transition: all ease 0.2s;
+    
+
+}
+
+.socials_container {
+    width:'auto';
+    height:'90px';
+    padding: '25px';
+    margin-bottom: '75px';
+    margin-top: '25px';
+    background-color: rgb(255, 255, 255);
+    
+}
