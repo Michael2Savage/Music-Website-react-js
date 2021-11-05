@@ -1,6 +1,6 @@
 import React from 'react'
 import Socials from '../Components/Socials'
-import './static/Mashups.css'
+import './static/Home.css'
 
 export default function Home() {
     return (
@@ -15,7 +15,6 @@ export default function Home() {
             <br></br>
             <br></br>
 
-            <h3>Intro music for a podcast</h3>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/WB5dz_1-Fz4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
             <br></br>
@@ -26,6 +25,10 @@ export default function Home() {
             <br></br>
             <br></br>
             <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            
             <Socials />
             
         </div>

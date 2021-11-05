@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import PersonIcon from '@mui/icons-material/Person';
 import './static/Navbar.css'
 import Logo from './static/michaelsavagecoverartsnippit.png';
+import AuthNav from './auth-nav';
 
 
 
@@ -24,21 +25,22 @@ export default function Navbar() {
         </li>
       </ul>
       
-      <ul className="navbar-nav ml-auto mb-2 mb-lg-">
+
+      <AuthNav />
+      
+      {/* <ul className="navbar-nav ml-auto mb-2 mb-lg-">
       <li className="nav-item dropdown">
           <a className="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
           <PersonIcon />User (need to right-align)
           </a>
-        
           <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
             <li><Link className="dropdown-item" to="/Signin">Sign In</Link></li>
             <li><Link className="dropdown-item" to="/Signout">Sign Out</Link></li>
             <li><hr className="dropdown-divider" /></li>
             <li><Link className="dropdown-item" to="/Createaccount">Create Account</Link></li>
           </ul>
-          
         </li>
-      </ul>
+      </ul> */}
       
     </div>
   </div>

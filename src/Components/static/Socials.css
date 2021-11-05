@@ -1,11 +1,11 @@
 .sm_link {
     transform: scale(1.0);
-    transition: all ease-in-out 0.2s;
+    
 }
 
 .sm_link:hover {
     transform: scale(1.4);
-    transition: all ease 0.2s;
+    transition: all ease-in-out 0.2s;
     
 
 }
